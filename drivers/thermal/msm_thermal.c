@@ -217,7 +217,6 @@ static void check_temp(struct work_struct *work)
                 }
             }
 #endif
-
         //mid trip point
         } else if ((temp >= msm_thermal_info.allowed_mid_high) &&
                (temp < msm_thermal_info.allowed_max_high) &&
