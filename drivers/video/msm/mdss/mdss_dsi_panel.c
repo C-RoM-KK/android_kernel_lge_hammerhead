@@ -26,8 +26,10 @@
 #include <linux/ctype.h>
 #endif
 
+#ifdef CONFIG_TOUCHSCREEN_PREVENT_SLEEP
 #ifdef CONFIG_TOUCHSCREEN_SWEEP2WAKE
 #include <linux/input/sweep2wake.h>
+#endif
 #endif
 
 #include <asm/system_info.h>
