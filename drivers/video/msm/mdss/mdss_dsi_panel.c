@@ -26,6 +26,10 @@
 #include <linux/ctype.h>
 #endif
 
+#ifdef CONFIG_TOUCHSCREEN_SWEEP2WAKE
+#include <linux/input/sweep2wake.h>
+#endif
+
 #include <asm/system_info.h>
 
 #include "mdss_dsi.h"
