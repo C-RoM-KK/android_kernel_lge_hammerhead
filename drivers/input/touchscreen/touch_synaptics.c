@@ -38,6 +38,12 @@
 
 #include "SynaImage.h"
 
+#ifdef CONFIG_TOUCHSCREEN_PREVENT_SLEEP
+#ifdef CONFIG_TOUCHSCREEN_SWEEP2WAKE
+#include <linux/input/sweep2wake.h>
+#endif
+#endif
+
 static struct workqueue_struct *synaptics_wq;
 
 /* RMI4 spec from 511-000405-01 Rev.D
