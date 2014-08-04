@@ -2,7 +2,7 @@ VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 94
 EXTRAVERSION =
-NAME = Saber-toothed Squirrel
+NAME = C-RoM
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
